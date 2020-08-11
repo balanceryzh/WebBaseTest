@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnZhuangShiJian" xml:space="preserve">
+    <value>安装时间</value>
+  </data>
+  <data name="BanBeng" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="BanBengGuanLi" xml:space="preserve">
+    <value>版本管理</value>
+  </data>
+  <data name="BanBengHao" xml:space="preserve">
+    <value>版本号</value>
+  </data>
+  <data name="BanBengHaoYiCunZai" xml:space="preserve">
+    <value>版本号已存在</value>
+  </data>
+  <data name="BangDing" xml:space="preserve">
+    <value>绑定</value>
+  </data>
+  <data name="BangZhu" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="BaoCun" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="BeiZhu" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="BianHao" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="BianJi" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="BiaoShi" xml:space="preserve">
+    <value>标识</value>
+  </data>
+  <data name="BiaoTi" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="BuNengWeiKong" xml:space="preserve">
+    <value>不能为空</value>
+  </data>
+  <data name="CaoZuo" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="ChangDuQuJianFormat" xml:space="preserve">
+    <value>{PropertyName}的长度为{MinLength}至{MaxLength}个字符</value>
+  </data>
+  <data name="ChangQiYouXiao" xml:space="preserve">
+    <value>长期有效</value>
+  </data>
+  <data name="ChaXun" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="ChengGong" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="ChengXuBao" xml:space="preserve">
+    <value>程序包</value>
+  </data>
+  <data name="ChengXuPeiZhi" xml:space="preserve">
+    <value>程序配置</value>
+  </data>
+  <data name="ChengXuYiJingYunXingQingWuChongFuCaoZuo" xml:space="preserve">
+    <value>程序已经运行，请勿重复操作</value>
+  </data>
+  <data name="ChongZhi" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="ChongZhiWeiMoRenMiMa" xml:space="preserve">
+    <value>重置为默认密码</value>
+  </data>
+  <data name="ChuangJian" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="ChuanZheng" xml:space="preserve">
+    <value>传真</value>
+  </data>
+  <data name="ChuShengRiQi" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="ChuShiShiBaiQingChongXinCaoZuo" xml:space="preserve">
+    <value>初始失败，请重新操作</value>
+  </data>
+  <data name="ChuShiShiBaiQingGuanBiChongXingQiDong" xml:space="preserve">
+    <value>初始失败，请关闭程序重新启动</value>
+  </data>
+  <data name="CiShu" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="CuoWu" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="DangQianBanBeng" xml:space="preserve">
+    <value>当前版本</value>
+  </data>
+  <data name="DangQianWeiZuiXinBanBeng" xml:space="preserve">
+    <value>当前为最新版本</value>
+  </data>
+  <data name="DanJia" xml:space="preserve">
+    <value>单价</value>
+  </data>
+  <data name="DanWei" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="DaoChu" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="DaoJiShi" xml:space="preserve">
+    <value>倒计时</value>
+  </data>
+  <data name="DaoRu" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="DengLu" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="DengLuZhangHao" xml:space="preserve">
+    <value>登录账号</value>
+  </data>
+  <data name="DianHua" xml:space="preserve">
+    <value>电话</value>
+  </data>
+  <data name="DingDan" xml:space="preserve">
+    <value>订单</value>
+  </data>
+  <data name="DiQuShuJu" xml:space="preserve">
+    <value>地区数据</value>
+  </data>
+  <data name="DiZhi" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="FaBu" xml:space="preserve">
+    <value>发布</value>
+  </data>
+  <data name="FaBuShiJian" xml:space="preserve">
+    <value>发布时间</value>
+  </data>
+  <data name="FanHuiDengLu" xml:space="preserve">
+    <value>返回登录</value>
+  </data>
+  <data name="FanKui" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="FaSong" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="FaXianXinBanBeng" xml:space="preserve">
+    <value>发现新版本</value>
+  </data>
+  <data name="GengXin" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="GengXinBao" xml:space="preserve">
+    <value>更新包</value>
+  </data>
+  <data name="GengXinChengXu" xml:space="preserve">
+    <value>更新程序</value>
+  </data>
+  <data name="GengXinLeiXing" xml:space="preserve">
+    <value>更新类型</value>
+  </data>
+  <data name="GeRen" xml:space="preserve">
+    <value>个人</value>
+  </data>
+  <data name="GeRenYongHu" xml:space="preserve">
+    <value>个人用户</value>
+  </data>
+  <data name="GongNengQuanXian" xml:space="preserve">
+    <value>功能权限</value>
+  </data>
+  <data name="GongXiang" xml:space="preserve">
+    <value>共享</value>
+  </data>
+  <data name="GongZuoTai" xml:space="preserve">
+    <value>工作台</value>
+  </data>
+  <data name="GouMai" xml:space="preserve">
+    <value>购买</value>
+  </data>
+  <data name="GuanLi" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="GuanLiGongJu" xml:space="preserve">
+    <value>管理工具</value>
+  </data>
+  <data name="GuanLiYuan" xml:space="preserve">
+    <value>管理员</value>
+  </data>
+  <data name="GuanLiZhongXin" xml:space="preserve">
+    <value>管理中心</value>
+  </data>
+  <data name="GuanYu" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="GuanYuWoMen" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="GuoQi" xml:space="preserve">
+    <value>过期</value>
+  </data>
+  <data name="HangYeShuJu" xml:space="preserve">
+    <value>行业数据</value>
+  </data>
+  <data name="HuiYuanMa" xml:space="preserve">
+    <value>会员码</value>
+  </data>
+  <data name="IPDiZhiKu" xml:space="preserve">
+    <value>IP地址库</value>
+  </data>
+  <data name="JiaoYan" xml:space="preserve">
+    <value>校验</value>
+  </data>
+  <data name="JiChu" xml:space="preserve">
+    <value>基础</value>
+  </data>
+  <data name="JieBang" xml:space="preserve">
+    <value>解绑</value>
+  </data>
+  <data name="JieShu" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="JieShuShiJian" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="JieXi" xml:space="preserve">
+    <value>解析</value>
+  </data>
+  <data name="JingZhi" xml:space="preserve">
+    <value>禁止</value>
+  </data>
+  <data name="KaiShi" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="KaiShiShiJian" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="KeHuDuan" xml:space="preserve">
+    <value>客户端</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="KongShiMoRen" xml:space="preserve">
+    <value>空时默认</value>
+  </data>
+  <data name="LaiYuan" xml:space="preserve">
+    <value>来源</value>
+  </data>
+  <data name="LeiXing" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="LianXiDiZhi" xml:space="preserve">
+    <value>联系地址</value>
+  </data>
+  <data name="LiuLanQi" xml:space="preserve">
+    <value>浏览器</value>
+  </data>
+  <data name="LiuYan" xml:space="preserve">
+    <value>留言</value>
+  </data>
+  <data name="LuJingCuoWu" xml:space="preserve">
+    <value>路径错误</value>
+  </data>
+  <data name="MiaoShu" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="MiMa" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="MiMaChongZhi" xml:space="preserve">
+    <value>重置密码</value>
+  </data>
+  <data name="MiMaJiu" xml:space="preserve">
+    <value>旧密码</value>
+  </data>
+  <data name="MiMaJiZhu" xml:space="preserve">
+    <value>记住密码</value>
+  </data>
+  <data name="MiMaQueReng" xml:space="preserve">
+    <value>确认密码</value>
+  </data>
+  <data name="MiMaXin" xml:space="preserve">
+    <value>新密码</value>
+  </data>
+  <data name="MiMaXinYuQueRenBuTong" xml:space="preserve">
+    <value>新密码与确认密码不同</value>
+  </data>
+  <data name="MiMaXiuGai" xml:space="preserve">
+    <value>修改密码</value>
+  </data>
+  <data name="MiMaYuan" xml:space="preserve">
+    <value>原密码</value>
+  </data>
+  <data name="MiMaZhaoHui" xml:space="preserve">
+    <value>找回密码？</value>
+  </data>
+  <data name="MingCheng" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="MiYao" xml:space="preserve">
+    <value>密钥</value>
+  </data>
+  <data name="MoBanXiaZai" xml:space="preserve">
+    <value>模版下载</value>
+  </data>
+  <data name="MoRen" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="MoRenXuanZe" xml:space="preserve">
+    <value>默认选择</value>
+  </data>
+  <data name="MoRenZhuangTai" xml:space="preserve">
+    <value>默认状态</value>
+  </data>
+  <data name="NeiRong" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="NeiRong1" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="NeiRongWeiKong" xml:space="preserve">
+    <value>内容为空</value>
+  </data>
+  <data name="NiCheng" xml:space="preserve">
+    <value>昵称</value>
+  </data>
+  <data name="PeiZhi" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="PeiZhiWenJian" xml:space="preserve">
+    <value>配置文件</value>
+  </data>
+  <data name="QiDong" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="QieHuan" xml:space="preserve">
+    <value>切换</value>
+  </data>
+  <data name="QieHuan1" xml:space="preserve">
+    <value>切换</value>
+  </data>
+  <data name="QingLianXiKeFuHuoQuBangZhuHuoXinXi" xml:space="preserve">
+    <value>请联系客服获取帮助或信息！</value>
+  </data>
+  <data name="QingShuRu" xml:space="preserve">
+    <value>请输入</value>
+  </data>
+  <data name="QingShuRuFormat" xml:space="preserve">
+    <value>请输入{PropertyName}</value>
+  </data>
+  <data name="QingShuRuGuanJianZi" xml:space="preserve">
+    <value>请输入关键字搜索</value>
+  </data>
+  <data name="QingShuRuYouXiaoDe" xml:space="preserve">
+    <value>请输入有效的</value>
+  </data>
+  <data name="QingShuRuYouXiaoFormat" xml:space="preserve">
+    <value>请输入有效的{PropertyName}</value>
+  </data>
+  <data name="QiZhiFormat" xml:space="preserve">
+    <value> 从{0}至{1}</value>
+  </data>
+  <data name="QiZhiXinXi" xml:space="preserve">
+    <value>起止信息</value>
+  </data>
+  <data name="QuanBu" xml:space="preserve">
+    <value>全部</value>
+  </data>
+  <data name="QueDing" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="QueRen" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="QuXiao" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="RengZhengShouJi" xml:space="preserve">
+    <value>手机认证</value>
+  </data>
+  <data name="RengZhengYouXiang" xml:space="preserve">
+    <value>邮箱认证</value>
+  </data>
+  <data name="RengZhengZhengJian" xml:space="preserve">
+    <value>证件认证</value>
+  </data>
+  <data name="RenWuChuangJian" xml:space="preserve">
+    <value>任务创建</value>
+  </data>
+  <data name="RenZheng" xml:space="preserve">
+    <value>认证</value>
+  </data>
+  <data name="RiQi" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="RiZhiJiLu" xml:space="preserve">
+    <value>日志记录</value>
+  </data>
+  <data name="RiZhiJiLuQi" xml:space="preserve">
+    <value>日志记录器</value>
+  </data>
+  <data name="ShanChu" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="ShangChuan" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="ShengCheng" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="SheZhi" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="ShiBai" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="ShiBieJieGuo" xml:space="preserve">
+    <value>识别结果</value>
+  </data>
+  <data name="ShiBieJieGuoWeiKong" xml:space="preserve">
+    <value>识别结果为空</value>
+  </data>
+  <data name="ShiJian" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="ShiYongBan" xml:space="preserve">
+    <value>试用版</value>
+  </data>
+  <data name="ShiYongCiShu" xml:space="preserve">
+    <value>使用次数</value>
+  </data>
+  <data name="ShouJi" xml:space="preserve">
+    <value>手机</value>
+  </data>
+  <data name="ShouJiHao" xml:space="preserve">
+    <value>手机号</value>
+  </data>
+  <data name="ShouJiHaoMa" xml:space="preserve">
+    <value>手机号码</value>
+  </data>
+  <data name="ShouQuanShiYongCiShuYiChaoChu" xml:space="preserve">
+    <value>授权使用次数已超出</value>
+  </data>
+  <data name="ShouQuanWenJianCuoWu" xml:space="preserve">
+    <value>授权文件错误</value>
+  </data>
+  <data name="ShouQuanXinXiCuoWu" xml:space="preserve">
+    <value>授权信息错误</value>
+  </data>
+  <data name="ShouQuanYiGuoQi" xml:space="preserve">
+    <value>授权信息已过期</value>
+  </data>
+  <data name="ShouYe" xml:space="preserve">
+    <value>首页</value>
+  </data>
+  <data name="ShuLiang" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="SouSuo" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="TianJia" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="TianShu" xml:space="preserve">
+    <value>天数</value>
+  </data>
+  <data name="TiJiao" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="TongZhiLeiXin" xml:space="preserve">
+    <value>通知类型</value>
+  </data>
+  <data name="TuiChu" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="WeiBangDing" xml:space="preserve">
+    <value>未绑定</value>
+  </data>
+  <data name="WeiZhaoDaoFormat" xml:space="preserve">
+    <value>未找到{0}</value>
+  </data>
+  <data name="WenDang" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="WenJian" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="WenJianShangChuan" xml:space="preserve">
+    <value>文件上传</value>
+  </data>
+  <data name="WoYiYueDu" xml:space="preserve">
+    <value>我已阅读</value>
+  </data>
+  <data name="WoYiYueDuZhuCeXieYi" xml:space="preserve">
+    <value>我已阅读《注册协议》</value>
+  </data>
+  <data name="XingBie" xml:space="preserve">
+    <value>性别</value>
+  </data>
+  <data name="XingMing" xml:space="preserve">
+    <value>姓名</value>
+  </data>
+  <data name="XinXi" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="XiTong" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="XiTongShuJuBuYunXuCaoZuo" xml:space="preserve">
+    <value>系统数据不允许操作</value>
+  </data>
+  <data name="XiuGai" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="XuanZe" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="YanZhengMa" xml:space="preserve">
+    <value>验证码</value>
+  </data>
+  <data name="YanZhengMaHuoQu" xml:space="preserve">
+    <value>获取验证码</value>
+  </data>
+  <data name="YeWu" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="YiBangDing" xml:space="preserve">
+    <value>已绑定</value>
+  </data>
+  <data name="YiCunZaiFormat" xml:space="preserve">
+    <value>{0}已存在</value>
+  </data>
+  <data name="YiGuoQi" xml:space="preserve">
+    <value>已过期</value>
+  </data>
+  <data name="YiJieBang" xml:space="preserve">
+    <value>已解绑</value>
+  </data>
+  <data name="YingYong" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="YingYongBanBeng" xml:space="preserve">
+    <value>应用版本</value>
+  </data>
+  <data name="YingYongChengXu" xml:space="preserve">
+    <value>应用程序</value>
+  </data>
+  <data name="YingYongPeiZhi" xml:space="preserve">
+    <value>应用配置</value>
+  </data>
+  <data name="YingYongXiangMu" xml:space="preserve">
+    <value>应用项目</value>
+  </data>
+  <data name="YiShiYong" xml:space="preserve">
+    <value>已使用</value>
+  </data>
+  <data name="YiXuanZeXiang" xml:space="preserve">
+    <value>已选中&lt;em&gt;{0}&lt;/em&gt;项</value>
+  </data>
+  <data name="YiZhe" xml:space="preserve">
+    <value>译者</value>
+  </data>
+  <data name="YongHu" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="YongHuDaoRu" xml:space="preserve">
+    <value>用户导入</value>
+  </data>
+  <data name="YongHuDengLu" xml:space="preserve">
+    <value>用户登录</value>
+  </data>
+  <data name="YongHuLeiXing" xml:space="preserve">
+    <value>用户类型</value>
+  </data>
+  <data name="YongHuLeiXingBuYunXuDengLuFormat" xml:space="preserve">
+    <value>用户类型 [{0}] 不允许登录</value>
+  </data>
+  <data name="YongHuLeiXingBuYunXuZhuCeFormat" xml:space="preserve">
+    <value>用户类型 [{0}] 不允许注册</value>
+  </data>
+  <data name="YongHuMing" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="YongHuMingShouJihaoMaYouXiangDiZhi" xml:space="preserve">
+    <value>用户名/手机号码/邮箱地址</value>
+  </data>
+  <data name="YongHuPeiZhi" xml:space="preserve">
+    <value>用户配置</value>
+  </data>
+  <data name="YongHuWeiZhaoDao" xml:space="preserve">
+    <value>未找到用户</value>
+  </data>
+  <data name="YongHuYiChang" xml:space="preserve">
+    <value>用户异常</value>
+  </data>
+  <data name="YongHuYiCunZai" xml:space="preserve">
+    <value>用户已存在</value>
+  </data>
+  <data name="YongHuZhuangTaiWeiFormat" xml:space="preserve">
+    <value>用户状态 {0} 请联系客服</value>
+  </data>
+  <data name="YongHuZhuCe" xml:space="preserve">
+    <value>用户注册</value>
+  </data>
+  <data name="YongYuZhuCeXin" xml:space="preserve">
+    <value>新用户注册</value>
+  </data>
+  <data name="YouHui" xml:space="preserve">
+    <value>优惠</value>
+  </data>
+  <data name="YouXiang" xml:space="preserve">
+    <value>邮箱</value>
+  </data>
+  <data name="YouXiangDiZhi" xml:space="preserve">
+    <value>邮箱地址</value>
+  </data>
+  <data name="YouXiaoShiJian" xml:space="preserve">
+    <value>有效时间</value>
+  </data>
+  <data name="YouXiaoTianShu" xml:space="preserve">
+    <value>有效天数</value>
+  </data>
+  <data name="YouXiaoTianShu1" xml:space="preserve">
+    <value>有效天数</value>
+  </data>
+  <data name="YunXu" xml:space="preserve">
+    <value>允许</value>
+  </data>
+  <data name="YuYan" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="ZhangHao" xml:space="preserve">
+    <value>账号</value>
+  </data>
+  <data name="ZhangHaoMeiYou" xml:space="preserve">
+    <value>没有账号</value>
+  </data>
+  <data name="ZhangHaoYiCunZai" xml:space="preserve">
+    <value>帐号已存在</value>
+  </data>
+  <data name="ZhangHaoYiYou" xml:space="preserve">
+    <value>已有账号</value>
+  </data>
+  <data name="ZhengShiBan" xml:space="preserve">
+    <value>正式版</value>
+  </data>
+  <data name="ZhengZaiQiDong" xml:space="preserve">
+    <value>正在启动</value>
+  </data>
+  <data name="Zhi" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="ZhiFu" xml:space="preserve">
+    <value>支付</value>
+  </data>
+  <data name="ZhongXin" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="ZhuangTai" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="ZhuangTaiWeiBuYunXuCaoZuoFormat" xml:space="preserve">
+    <value>{0}状态为{1}，不允许操作</value>
+  </data>
+  <data name="ZhuCe" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="ZhuCeXieYi" xml:space="preserve">
+    <value>《注册协议》</value>
+  </data>
+  <data name="ZhuJieMian" xml:space="preserve">
+    <value>主界面</value>
+  </data>
+  <data name="ZhunBeiGengXinZhengZaiGuanBiJingCheng" xml:space="preserve">
+    <value>准备更新，正在关闭进程</value>
+  </data>
+  <data name="ZiLiao" xml:space="preserve">
+    <value>资料</value>
+  </data>
+  <data name="ZiYuan" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="ZuiXinBanBeng" xml:space="preserve">
+    <value>最新版本</value>
+  </data>
+  <data name="ZuoYe" xml:space="preserve">
+    <value>作业</value>
+  </data>
+  <data name="ZuoZhe" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="ZuZhi" xml:space="preserve">
+    <value>组织</value>
+  </data>
+  <data name="ZuZhiChengYuan" xml:space="preserve">
+    <value>组织成员</value>
+  </data>
+  <data name="ZuZhiChengYuanGuanLiCaoZuoTiShi" xml:space="preserve">
+    <value>请从组织用户页面对应相关组织操作</value>
+  </data>
+  <data name="ZuZhiChengYuanJiCheng" xml:space="preserve">
+    <value>继承组织用户</value>
+  </data>
+  <data name="ZuZhiChengYuanShuLiang" xml:space="preserve">
+    <value>成员数量</value>
+  </data>
+  <data name="ZuZhiChengYunShuLiangChaoGuoFormat" xml:space="preserve">
+    <value>组织成员数量超过 [{0}] 个</value>
+  </data>
+  <data name="ZuZhiDeChengYuan" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="ZuZhiYongHu" xml:space="preserve">
+    <value>组织用户</value>
+  </data>
+  <data name="ZuZhiZiZhangHaoShuLiang" xml:space="preserve">
+    <value>组织子账号数量</value>
+  </data>
+</root>
