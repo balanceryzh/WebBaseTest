@@ -51,6 +51,9 @@
     <Reference Include="Autofac.Extras.DynamicProxy, Version=5.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.Extras.DynamicProxy.5.0.0\lib\net461\Autofac.Extras.DynamicProxy.dll</HintPath>
     </Reference>
+    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <HintPath>..\packages\Portable.BouncyCastle.1.8.6\lib\net40\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
@@ -326,6 +329,9 @@
     <Compile Include="Framework\Configuration\Interface\IEngineXmlConfiguration.cs" />
     <Compile Include="Framework\Configuration\Interface\IXmlConfiguration.cs" />
     <Compile Include="Framework\Configuration\XmlConfigurationDefault.cs" />
+    <Compile Include="Framework\Hosting\Interface\IHosting.cs" />
+    <Compile Include="Framework\Launcher\Interface\ILauncher.cs" />
+    <Compile Include="Framework\Launcher\LauncherDefault.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

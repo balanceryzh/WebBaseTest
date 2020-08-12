@@ -3,3 +3,10 @@
 ################################################################################
 
 /WebApi1/bin
+/WebApi1/obj/Debug
+/WebApiSqlSugar4.9/bin
+/WebBase1/bin
+/XUnitWebApiTest/obj/Debug/netcoreapp3.1
+/WebApiCoreSqlSugar5.0/obj/Debug/netcoreapp3.1
+/WebApiCoreSqlSugar5.0/obj
+/XUnitWebApiTest/obj
