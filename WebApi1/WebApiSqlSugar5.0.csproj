@@ -51,8 +51,8 @@
     <Reference Include="Autofac.Extras.DynamicProxy, Version=5.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.Extras.DynamicProxy.5.0.0\lib\net461\Autofac.Extras.DynamicProxy.dll</HintPath>
     </Reference>
-    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
+    <Reference Include="AutoMapper, Version=8.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.8.1.1\lib\net461\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
       <HintPath>..\packages\Portable.BouncyCastle.1.8.6\lib\net40\BouncyCastle.Crypto.dll</HintPath>
@@ -65,6 +65,9 @@
     </Reference>
     <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidation, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.8.6.2\lib\net45\FluentValidation.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
@@ -322,6 +325,7 @@
     <Compile Include="EnumBase\EnumAccountType.cs" />
     <Compile Include="EnumBase\EnumAuthenticationType.cs" />
     <Compile Include="EnumBase\EnumClientType.cs" />
+    <Compile Include="EnumBase\EnumLoglevel.cs" />
     <Compile Include="EnumBase\ParameterType.cs" />
     <Compile Include="EnumBase\EnumCode.cs" />
     <Compile Include="EnumBase\EnumDatabaseType.cs" />
@@ -329,9 +333,24 @@
     <Compile Include="Framework\Configuration\Interface\IEngineXmlConfiguration.cs" />
     <Compile Include="Framework\Configuration\Interface\IXmlConfiguration.cs" />
     <Compile Include="Framework\Configuration\XmlConfigurationDefault.cs" />
+    <Compile Include="Framework\Dependency\DependencyExtension.cs" />
+    <Compile Include="Framework\Domains\InterFace\IInput.cs" />
+    <Compile Include="Framework\Domains\Profile\DomainProfileManager.cs" />
+    <Compile Include="Framework\Domains\Profile\InterFace\IDomainProfile.cs" />
+    <Compile Include="Framework\Domains\Validation\FluentValidators.cs" />
+    <Compile Include="Framework\Domains\Validation\Options\FluentValidationOptions.cs" />
     <Compile Include="Framework\Hosting\Interface\IHosting.cs" />
     <Compile Include="Framework\Launcher\Interface\ILauncher.cs" />
     <Compile Include="Framework\Launcher\LauncherDefault.cs" />
+    <Compile Include="Framework\Logger\InterFace\ILog.cs" />
+    <Compile Include="Framework\Logger\InterFace\ILogger.cs" />
+    <Compile Include="Framework\Logger\InterFace\ILoggerAdapter.cs" />
+    <Compile Include="Framework\Logger\LoggerCreate.cs" />
+    <Compile Include="Framework\Logger\LoggingManager.cs" />
+    <Compile Include="Framework\Parts\EnumBase\EnumPartsType.cs" />
+    <Compile Include="Framework\Parts\InterFace\IPartsProfile.cs" />
+    <Compile Include="Framework\Parts\PartsManager.cs" />
+    <Compile Include="Framework\TypeFinder\InterFace\ITypeFinder.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -1,13 +1,16 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using WebApi1.Dependency;
+using WebApi1.Dependency.EnumBase;
 using WebApi1.EnumBase;
 using WebApi1.Framework;
 using WebApi1.InterFace;
 using WebApi1.Options;
 using WebApi1.Resource;
+using WebApi1.Utility;
 
 namespace WebApi1.Engine
 {
@@ -459,8 +462,8 @@ namespace WebApi1.Engine
         /// <returns></returns>
         public static TEntity Map<TEntity>(object source)
         {
-            Mapper mapper = new Mapper();
-            return mapper.Map<TEntity>(source);
+            
+            return Mapper.Map<TEntity>(source);
         }
 
         /// <summary>
